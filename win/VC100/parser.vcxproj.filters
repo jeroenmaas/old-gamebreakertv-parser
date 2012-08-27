@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Database">
+      <UniqueIdentifier>{4c18d489-c6aa-452f-b91a-55846ec64e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extractor">
+      <UniqueIdentifier>{fb878f94-451b-46ab-96b9-597771f11f28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{2f2de187-ca2b-4e86-99fe-0af8bf4aebe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Main\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Main\httpRequest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Main\Master.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Main\ObjectManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Main\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Main\targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Config\Config.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Extractor\Extractor.h">
+      <Filter>Extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Extractor\headerExtractor.h">
+      <Filter>Extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Extractor\ShowInfoExtractor.h">
+      <Filter>Extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Log\Log.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Main\callback.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Mysql\Field.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Mysql\MysqlConnection.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Mysql\QueryResultMysql.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Extractor\BlipCategoryRssExtractor.h">
+      <Filter>Extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Extractor\BlipEmbededRssExtractor.h">
+      <Filter>Extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Main\c2dmMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Main\httpRequest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Main\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Main\Master.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Main\ObjectManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Main\stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Config\Config.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Extractor\Extractor.cpp">
+      <Filter>Extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Extractor\headerExtractor.cpp">
+      <Filter>Extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Extractor\ShowInfoExtractor.cpp">
+      <Filter>Extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Mysql\QueryResultMysql.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Mysql\MysqlConnection.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Log\Log.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Extractor\BlipCategoryRssExtractor.cpp">
+      <Filter>Extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Extractor\BlipEmbededRssExtractor.cpp">
+      <Filter>Extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Main\c2dmMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
